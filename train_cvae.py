@@ -14,6 +14,7 @@ from constants import *
 import opendatasets as od 
 
 od.download('https://www.kaggle.com/datasets/purwarlab/four-bar-coupler-curves')
+od.download('https://www.kaggle.com/datasets/anarnurizada/latents')
 
 torch.set_float32_matmul_precision('medium')
        
